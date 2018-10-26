@@ -4,3 +4,18 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.font_righteous {
+  font-family: 'Righteous', cursive;
+}
+
+/*====================
+        HEADER
+======================*/
+
+.header_logo {
+  flex-grow: 1;
+}
+
+.header_logo_pds {
+  font-size: 40px;
+}
