@@ -8,6 +8,11 @@ body {
   font-family: 'Righteous', cursive;
 }
 
+/*houses carousel, countdown*/
+.featuredDiv {
+  position: relative;
+}
+
 /*====================
         HEADER
 ======================*/
@@ -15,7 +20,35 @@ body {
 .header_logo {
   flex-grow: 1;
 }
-
 .header_logo_pds {
   font-size: 40px;
 }
+
+/*====================
+        CAROUSEL
+======================*/
+
+.carousel_wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+.carousel_slide1 {
+  background-image: url("./assets/images/slide1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.carousel_slide2 {
+  background-image: url("./assets/images/slide2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.carousel_slide3 {
+  background-image: url("./assets/images/slide3.jpg");
+  background-size: cover ;
+  height: 100vh;
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+
