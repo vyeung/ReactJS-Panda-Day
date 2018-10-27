@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./styles.css";
 
-import Header from "./components/header-and-footer/Header";
+import Header from "./components/header/Header";
 import Featured from "./components/featured/featured";
 
 class App extends Component {
