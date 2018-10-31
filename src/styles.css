@@ -104,14 +104,18 @@ body {
         PARTY INFO
 ======================*/
 
-h2 {
+.center_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.center_wrapper h2 {
   color: #ffffff;
   text-align: center;
   font-size: 50px;
   margin: 0;
   padding: 50px 0px 0px 0px;
 }
-h3 {
+.center_wrapper h3 {
   color: #ffffff;
   text-align: center;
   font-size: 25px;
@@ -120,13 +124,9 @@ h3 {
   font-style: italic;
   font-weight: 100;
 }
-.center_wrapper {
-  width: 85%;
-  margin: 0 auto;
-}
 .pInfo_wrapper {
   display: flex;
-  padding: 70px 0px 170px 0px;
+  padding: 70px 0px 150px 0px;
 }
 .pInfo_item {
   width: 50%;
@@ -185,4 +185,32 @@ h3 {
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 90px;
+}
+
+/*====================
+        FUN FACTS
+======================*/
+
+.funFacts_wrapper {
+  padding-bottom: 150px;
+}
+.funFacts_wrapper h2 {
+  color: #2c2c2c;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 50px 0px 50px 0px;
+}
+.funFacts_list {
+  font-size: 25px;
+  padding-left: 10%;
+}
+.funFacts_list ul {
+  margin: 0;
+}
+.funFacts_list li {
+  padding: 20px 0px;
+}
+.funFacts_list li:last-child {
+  padding: 20px 0px 0px 0px;
 }
