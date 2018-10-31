@@ -13,6 +13,19 @@ body {
   position: relative;
 }
 
+/*used in partyInfo, */
+.blackBackgroundDiv {
+  background: #3c3c3c;
+}
+
+.redBackground {
+  background: #ff4800;
+}
+
+.yellowBackground {
+  background: #ffa800;
+}
+
 /*====================
         HEADER
 ======================*/
@@ -85,4 +98,91 @@ body {
 .countdown_tag {
   font-size: 0.9em;
   text-align: center;
+}
+
+/*====================
+        PARTY INFO
+======================*/
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 50px 0px 0px 0px;
+}
+h3 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  padding: 0px 0px 50px 0px;
+  font-style: italic;
+  font-weight: 100;
+}
+.center_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.pInfo_wrapper {
+  display: flex;
+  padding: 70px 0px 170px 0px;
+}
+.pInfo_item {
+  width: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.pInfo_outer {
+  width: 300px;
+  border: 2px solid #828282;
+  margin: auto;
+  padding: 5px;
+}
+.pInfo_inner { 
+  border: 2px solid #828282;
+  position: relative;
+  padding: 0px 20px;
+}
+.pInfo_inner:hover {
+  background: #3e3e3e;
+}
+.pInfo_icon_square {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -54px;
+  left: 100px;
+}
+
+/*fit icon inside the rotated square*/
+.pInfo_icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  position: absolute;
+  top: -30px;
+  left: 124px;
+}
+.left {
+  background-image: url("./assets/icons/calendar.png");
+}
+.right {
+  background-image: url("./assets/icons/location.png");
+}
+
+.pInfo_title {
+  font-size: 28px;
+  margin: 90px 0px 20px 0px;
+  border-bottom: 1px solid #5d5d5d;
+  padding-bottom: 10px;
+}
+.pInfo_time {
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 90px;
 }
