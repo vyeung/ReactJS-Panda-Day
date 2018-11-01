@@ -26,6 +26,12 @@ body {
   background: #ffa800;
 }
 
+/*used in reusable button*/
+.icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
 /*====================
         HEADER
 ======================*/
