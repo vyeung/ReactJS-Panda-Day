@@ -30,7 +30,7 @@ class Pricing extends Component {
               </div>
               
               <div className="pricing_image">
-                <img src={this.state.images[i]} alt="image"/>
+                <img src={this.state.images[i]} alt="merchImage"/>
               </div>
               
               <div className="pricing_button">
