@@ -13,7 +13,7 @@ body {
   position: relative;
 }
 
-/*used in partyInfo, */
+/*used in partyInfo, merchandise */
 .blackBackgroundDiv {
   background: #3c3c3c;
 }
@@ -110,18 +110,18 @@ body {
         PARTY INFO
 ======================*/
 
-.center_wrapper {
+.pInfo_center_wrapper {
   width: 85%;
   margin: 0 auto;
 }
-.center_wrapper h2 {
+.pInfo_center_wrapper h2 {
   color: #ffffff;
   text-align: center;
   font-size: 50px;
   margin: 0;
   padding: 50px 0px 0px 0px;
 }
-.center_wrapper h3 {
+.pInfo_center_wrapper h3 {
   color: #ffffff;
   text-align: center;
   font-size: 25px;

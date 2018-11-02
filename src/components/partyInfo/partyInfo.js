@@ -17,7 +17,7 @@ const partyInfo = () => {
 
   return (
     <div className="blackBackgroundDiv">
-      <div className="center_wrapper">
+      <div className="pInfo_center_wrapper">
         <div>
           <h2>Annual Celebration Party</h2>
           <h3>* Free Admission *</h3>
