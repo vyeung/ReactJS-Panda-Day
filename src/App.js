@@ -5,15 +5,17 @@ import Header from "./components/header/Header";
 import Featured from "./components/featured/featured";
 import PartyInfo from "./components/partyInfo/partyInfo";
 import FunFacts from "./components/funFacts/funFacts";
+import Merchandise from "./components/merchandise/merchandise";
 
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{height:"1500px", background:"lightblue"}}>
+      <div className="App">
         <Header />
         <Featured />
         <PartyInfo />
         <FunFacts />
+        <Merchandise />
       </div>
     );
   }

@@ -132,7 +132,7 @@ body {
 }
 .pInfo_wrapper {
   display: flex;
-  padding: 70px 0px 150px 0px;
+  padding: 70px 0px 100px 0px;
 }
 .pInfo_item {
   width: 50%;
@@ -198,7 +198,7 @@ body {
 ======================*/
 
 .funFacts_wrapper {
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .funFacts_wrapper h2 {
   color: #2c2c2c;
@@ -217,6 +217,79 @@ body {
 .funFacts_list li {
   padding: 20px 0px;
 }
+.funFacts_list li:first-child {
+  padding: 0px 0px 20px 0px;
+}
 .funFacts_list li:last-child {
   padding: 20px 0px 0px 0px;
+}
+
+/*====================
+        MERCHANDISE
+======================*/
+
+.merch_center_wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.merch_center_wrapper h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  margin: 0;
+  padding: 50px 0px 50px 0px;
+}
+.pricing_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pricing_item{
+  flex-grow: 1;
+  width: 33%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.pricing_inner {
+  border: 2px solid #ffa800;
+  padding: 40px 20px;
+}
+.pricing_title {
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 1px solid #ffa800;
+  padding-bottom: 20px;
+}
+.pricing_title span:nth-child(1) {
+  font-size: 50px;
+  display: block;
+}
+.pricing_title span:nth-child(2) {
+  font-size: 28px;
+  font-weight: 300;
+}
+.pricing_image img {
+  padding: 20px 0px;
+  min-height: 70px; 
+  width: 100%;
+}
+.pricing_button {
+  text-align: center;
+}
+
+.discount_wrapper {
+  padding: 50px 0px 100px 0px;
+  text-align: center;
+}
+.discount_percentage span:nth-child(1) {
+  color: #ff4800;
+  font-size: 125px;
+  font-weight: 400;
+  line-height: 120px;
+  padding-right: 25px;
+}
+.discount_percentage span:nth-child(2) {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
 }
