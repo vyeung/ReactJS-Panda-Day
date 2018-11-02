@@ -6,6 +6,7 @@ import Featured from "./components/featured/featured";
 import PartyInfo from "./components/partyInfo/partyInfo";
 import FunFacts from "./components/funFacts/funFacts";
 import Merchandise from "./components/merchandise/merchandise";
+import PointOfInterest from "./components/pointOfInterest/pointOfInterest";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <PartyInfo />
         <FunFacts />
         <Merchandise />
+        <PointOfInterest />
       </div>
     );
   }
