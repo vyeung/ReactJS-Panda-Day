@@ -14,6 +14,7 @@ const myButton = (props) => {
     <MyButton
       style={buttonStyle}
       href={props.link}
+      target="_blank"  //open link in new tab
       variant="contained"
       size="small"
     >
